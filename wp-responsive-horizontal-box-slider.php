@@ -57,12 +57,6 @@ register_deactivation_hook( __FILE__, 'deactivate_wp_responsive_horizontal_box_s
  */
 require plugin_dir_path( __FILE__ ) . 'includes/class-wp-responsive-horizontal-box-slider.php';
 
-/**
- * Settings Api
- *
- * Returning All Fields & Tabs
- */
-require plugin_dir_path( __FILE__ ) . 'settings-api.php';
 
 
 /**
@@ -83,3 +77,9 @@ function run_wp_responsive_horizontal_box_slider() {
 run_wp_responsive_horizontal_box_slider();
 
 require plugin_dir_path( __FILE__ ) . 'widget/wprhbs-widget.php';
+/**
+ * Settings Api
+ *
+ * Returning All Fields & Tabs
+ */
+require plugin_dir_path( __FILE__ ) . 'settings-api.php';

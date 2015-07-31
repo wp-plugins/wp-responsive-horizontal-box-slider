@@ -29,7 +29,7 @@ There are 5 types of slide you can use:
 1. Upload `wp-responsive-horizontal-box-slider.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place `[wprhbs]` or [wprhbs type="x" catid="x" display_title="x"] in your post or pages
-1. Place `<?php echo do_shortcode('[wprhbs]'); ?>` or <?php echo do_shortcode('[wprhbs type="x" catid="x" display_title="x"]'); ?>  in your tamplate.
+1. Place `<?php echo do_shortcode('[wprhbs]'); ?>` or  `<?php echo do_shortcode('[wprhbs type="x" catid="x" display_title="x"]'); ?>`  in your tamplate.
 
 
 
@@ -47,8 +47,8 @@ If you want you can display or hide the Post title from your slider.
     2) catid: any category id
     3) display_title: yes or no
 
-* For Template use this  <?php echo do_shortcode('[wprhbs]'); ?>
-* For Template With Parameter <?php echo do_shortcode('[wprb type="largewidth" catid="1" display_title="yes"]'); ?>
+* For Template use this  `<?php echo do_shortcode('[wprhbs]'); ?>`
+* For Template With Parameter `<?php echo do_shortcode('[wprb type="largewidth" catid="1" display_title="yes"]'); ?>`
     1) type: responsive, lockedslider, largewidth, moveslide, startdifferent
     2) catid: any category id
     3) display_title: yes or no

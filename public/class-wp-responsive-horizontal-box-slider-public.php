@@ -81,7 +81,7 @@ class Wp_Responsive_Horizontal_Box_Slider_Public {
     // Getting Saved Settings from Database
     $wprhbs_settings  = get_option( 'wprhbs_settings' ) ;
 
-  //  print_r( $wprhbs_settings );
+ // print_r( $wprhbs_settings );
        extract(shortcode_atts(array(
            'type'	=> $wprhbs_settings[ 'wprhstype' ],
            'catid'	=> $wprhbs_settings[ 'wprhcategorylist' ],
